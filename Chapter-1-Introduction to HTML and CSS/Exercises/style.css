@@ -1,35 +1,22 @@
 h3 {
-margin: 20px;  
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;  
+}
+
+h1 {
+        font-family: "Nanum Pen Script", cursive;
+        font-weight: 400;
+        font-style: normal;
 }
 
 /* li {
 text-indent: 50px;
 } */
 
-/* img {
-    border-radius: 50%;
-} */
+.Para1 {
 
-.background {
-    position: relative;
-}
-
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-}
-
-img {
-    width: 90%;
-    display: block;
-    margin: auto;
-    height: 600px;
-    position: center;
-    background-size: cover;
-    opacity: 0.9;
 
 }
 
@@ -40,4 +27,16 @@ li{
     margin-block-end: 1em;
     padding-inline-start: 40px;
     unicode-bidi: isolate;
+}
+
+img {
+    float: left;
+    clip-path: circle(40%);
+    shape-outside: circle(40%);
+}
+
+div {
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
 }
