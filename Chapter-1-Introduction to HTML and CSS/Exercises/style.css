@@ -47,6 +47,11 @@ div {
     margin: 10px;
 }
 
-summary {
-    
+details > summary {
+    padding: 2px;
+    font-size: large;
+    margin: 20px;
+    width: 300px;
+    cursor: pointer;
+
 }
