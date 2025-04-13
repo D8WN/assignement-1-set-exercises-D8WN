@@ -7,20 +7,23 @@ h3 {
 }
 
 h1 {
+    .nanum-pen-script-regular {
         font-family: "Nanum Pen Script", cursive;
         font-weight: 400;
         font-style: normal;
+        font-size: 100px;}
 }
 
 
 .Greet {
         font-family: "Poetsen One", sans-serif;
         font-weight: 400;
+        font-size: x-large;
         font-style: normal;
-        text-indent: 50px;
+        text-indent: 100px;
 }
 
-.Para2 {
+.Para1 {
     text-indent: 50px;
 }
 
