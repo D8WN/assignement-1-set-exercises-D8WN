@@ -1,10 +1,21 @@
+header{
+    text-align: left;
+    margin: auto;
+    padding: 1em 0;
+    text-indent: 100px;
+}
+
+body{
+    background-color: rgb(177, 194, 158)
+}
+
 h3 {
     font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-size: large;
+    font-weight: 500;
+    font-size: x-large;
     margin: center;
     font-style: normal;
-    text-indent: 100px;
+    text-indent: 50px;
 }
 
 h1 {
@@ -15,18 +26,29 @@ h1 {
         text-align: center;
 }
 
-.bgm {
-    background-color: rgb(229, 217, 183);
-    margin: auto;
-    padding: 2px;
+.section1 {
+    background-color: rgb(252, 231, 200);
+    position-area: center;
+    padding: 10px;
+    margin: 10px;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.header-1 {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(252, 231, 200);
+}
+
+
 .Greet {
-        font-family: "Poetsen One", sans-serif;
+        font-family: "Lilita One", sans-serif;
         font-weight: 400;
-        font-size: x-large;
+        font-size: x large;
         font-style: normal;
-        text-indent: 100px;
+        text-indent: 80px;
 }
 
 .Para1 {
@@ -42,6 +64,10 @@ li{
     unicode-bidi: isolate;
 }
 
+hr {
+    color: beige;
+}
+
 img {
     float: left;
     clip-path: circle(40%);
@@ -49,15 +75,14 @@ img {
 }
 
 div {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 10px;
     margin: 10px;
 }
 
 details > summary {
-    padding: 2px;
-    font-size: large;
-    margin: 20px;
+    padding: 1px;
+    margin: 10px;
     width: 300px;
     cursor: pointer;
 
