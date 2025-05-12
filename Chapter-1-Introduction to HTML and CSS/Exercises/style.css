@@ -130,6 +130,7 @@ summary {
     margin: 20px;
     width: 500px;
     cursor: pointer;
+    color: bisque;
 }
 details {
     font-size: 19px;
@@ -140,6 +141,6 @@ footer {
     padding: 10px;
     height: 100px;
     background-color: rgb(98, 111, 71);
-    color: #000000;
+    color:beige;
     width: 100%;
 }
