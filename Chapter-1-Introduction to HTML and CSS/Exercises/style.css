@@ -13,9 +13,11 @@ header {
 
 .list{
     text-align: left;
-
 }
 
+.last_info{
+    text-align: center;
+}
 
 .flex-container{
     padding: 10px;
