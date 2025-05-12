@@ -1,8 +1,14 @@
 header {
     background-color: rgb(101, 124, 106);
-    position-area: center;
-    width: 1550px;
-    height: 100px;
+    text-align: center;
+    height: 250px;
+    padding: 20px;
+    margin: 30px;
+    width: 1410px;
+    border:10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-color: rgb(48, 98, 64);
+    border-width: thick;
 }
 
 
@@ -62,10 +68,14 @@ h1 {
         font-size: x large;
         font-style: normal;
         text-indent: 80px;
+        text-align: left;
+        padding: 10px;
+        margin: 5px;
 }
 
 .Para1 {
-    text-indent: 50px;
+    text-indent: 45px;
+    text-align: center;
 }
 
 li{
@@ -85,7 +95,9 @@ img {
     float: left;
     clip-path: circle(40%);
     shape-outside: circle(40%);
-    border-color: rgb(54, 94, 50);
+    border-style:solid;
+    border-width: thick;
+    border-color: rgb(101, 124, 106);
 }
 
 div {
@@ -111,7 +123,5 @@ footer {
     height: 65px;
     background-color: rgb(98, 111, 71);
     color: #000000;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
