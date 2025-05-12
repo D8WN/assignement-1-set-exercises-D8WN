@@ -11,6 +11,21 @@ header {
     border-width: thick;
 }
 
+.list{
+    text-align: left;
+
+}
+
+
+.flex-container{
+    padding: 10px;
+    margin: 20px;
+    font-size: x-large;
+    text-indent: 50px;
+    border-left: 6px rgb(98, 111, 71);
+    background-color: rgb(126, 151, 116);
+    text-align: center;
+}
 
 .header-1{
     text-align: left;
@@ -59,6 +74,7 @@ h1 {
     text-indent: 50px;
     border-left: 6px rgb(98, 111, 71);
     background-color: rgb(126, 151, 116);
+    text-align: center;
 }
 
 
@@ -68,7 +84,7 @@ h1 {
         font-size: x large;
         font-style: normal;
         text-indent: 80px;
-        text-align: left;
+        text-align: center;
         padding: 10px;
         margin: 5px;
 }
@@ -119,8 +135,8 @@ details {
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    height: 65px;
+    padding: 10px;
+    height: 100px;
     background-color: rgb(98, 111, 71);
     color: #000000;
     width: 100%;
