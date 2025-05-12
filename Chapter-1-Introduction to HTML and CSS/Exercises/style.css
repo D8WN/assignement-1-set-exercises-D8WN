@@ -1,3 +1,12 @@
+header {
+    background-color: rgb(101, 124, 106);
+    position-area: center;
+    padding: 10px;
+    margin: 10px;
+    width: 5000px;
+}
+
+
 .header-1{
     text-align: left;
     margin: auto;
@@ -76,6 +85,7 @@ img {
     float: left;
     clip-path: circle(40%);
     shape-outside: circle(40%);
+    border-color: rgb(54, 94, 50);
 }
 
 div {
