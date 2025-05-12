@@ -16,6 +16,7 @@ h3 {
     margin: center;
     font-style: normal;
     text-indent: 50px;
+    color: rgb(54, 94, 50)
 }
 
 h1 {
@@ -68,7 +69,7 @@ li{
 }
 
 hr {
-    color: beige;
+    color: rgb(41, 103, 25);
 }
 
 img {
