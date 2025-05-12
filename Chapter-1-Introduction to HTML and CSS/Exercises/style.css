@@ -1,9 +1,8 @@
 header {
     background-color: rgb(101, 124, 106);
     position-area: center;
-    padding: 10px;
-    margin: 10px;
-    width: 5000px;
+    width: 1550px;
+    height: 100px;
 }
 
 
@@ -12,6 +11,7 @@ header {
     margin: auto;
     padding: 1em 0;
     text-indent: 100px;
+    position-area: center;
 }
 
 body{
