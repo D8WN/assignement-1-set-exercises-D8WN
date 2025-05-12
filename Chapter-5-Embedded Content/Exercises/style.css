@@ -1,0 +1,27 @@
+.video_container{
+    height:80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div video {
+    height: 500px;
+    width: 1000px;
+}
+
+video {
+    height: 500px;
+    width: 1000px;
+    border: 10px solid #810ee5;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
