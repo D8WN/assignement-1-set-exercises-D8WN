@@ -1,146 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(177, 194, 158);
+    line-height: 1.6;
+}
+
+
 header {
     background-color: rgb(101, 124, 106);
     text-align: center;
-    height: 250px;
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    color: white;
+    max-width: 1000px;
+}
+
+h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 64px;
+    color: white;
+}
+
+
+
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 20px;
-    margin: 30px;
-    width: 1410px;
-    border:10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-color: rgb(48, 98, 64);
-    border-width: thick;
-}
-
-.list{
-    text-align: left;
-}
-
-.last_info{
-    text-align: center;
-}
-
-.flex-container{
-    padding: 10px;
-    margin: 20px;
-    font-size: x-large;
-    text-indent: 50px;
-    border-left: 6px rgb(98, 111, 71);
-    background-color: rgb(126, 151, 116);
-    text-align: center;
-}
-
-.header-1{
-    text-align: left;
+    max-width: 1200px;
     margin: auto;
-    padding: 1em 0;
-    text-indent: 100px;
-    position-area: center;
 }
 
-body{
-    background-color: rgb(177, 194, 158)
+.intro img {
+    flex: 1;
+    max-width: 500px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 50%;
+    border: thick solid rgb(101, 124, 106);
+}
+
+.intro-text {
+    flex: 2;
+    padding: 20px;
+}
+
+.Greet {
+    font-family: "Lilita One", sans-serif;
+    font-size: 28px;
+    color: rgb(48, 98, 64);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Para1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.main-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.section1,
+.flex-container {
+    background-color: rgb(248, 244, 230);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(48, 98, 64);
+    margin-bottom: 15px;
+}
+
+.ingredient-group ul,
+.flex-container ol,
+.flex-container ul {
+    padding-left: 20px;
+    margin-top: 10px;
 }
 
 h3 {
     font-family: "Poetsen One", sans-serif;
-    font-weight: 500;
-    font-size: x-large;
-    margin: center;
-    font-style: normal;
-    text-indent: 50px;
-    color: rgb(54, 94, 50)
+    font-size: 20px;
+    margin: 15px 0 5px;
+    color: rgb(54, 94, 50);
 }
 
-h1 {
-        font-family: "Poetsen One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 100px;
-        text-align: center;
-}
-
-.section1 {
-    background-color: rgb(252, 231, 200);
-    position-area: center;
+.flex-container details {
+    margin-bottom: 15px;
+    background-color: #e0e7db;
     padding: 10px;
-    margin: 10px;
-    width: 1000px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
 
-.header-2 {
-    padding: 10px;
-    margin: 20px;
-    font-size: x-large;
-    text-indent: 50px;
-    border-left: 6px rgb(98, 111, 71);
-    background-color: rgb(126, 151, 116);
-    text-align: center;
-}
-
-
-.Greet {
-        font-family: "Lilita One", sans-serif;
-        font-weight: 400;
-        font-size: x large;
-        font-style: normal;
-        text-indent: 80px;
-        text-align: center;
-        padding: 10px;
-        margin: 5px;
-}
-
-.Para1 {
-    text-indent: 45px;
-    text-align: center;
-}
-
-li{
-    display: block;
-    /* list-style-type: decimal; */
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    padding-inline-start: 40px;
-    unicode-bidi: isolate;
-}
-
-hr {
-    color: rgb(41, 103, 25);
-}
-
-img {
-    float: left;
-    clip-path: circle(40%);
-    shape-outside: circle(40%);
-    border-style:solid;
-    border-width: thick;
-    border-color: rgb(101, 124, 106);
-}
-
-div {
-    /* border: 1px solid green; */
-    padding: 10px;
-    margin: 10px;
-}
-
-summary {
-    font-size: 25px;
-    padding: 10px;
-    margin: 20px;
-    width: 500px;
+.flex-container summary {
     cursor: pointer;
-    color: bisque;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2c513f;
 }
-details {
-    font-size: 19px;
+
+.flex-container p,
+.flex-container li {
+    font-size: 16px;
+    color: #333;
+}
+
+.last_info {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+ol {
+    margin: 10px auto;
+    max-width: 800px;
+    padding-left: 40px;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    height: 100px;
+    padding: 20px;
     background-color: rgb(98, 111, 71);
-    color:beige;
-    width: 100%;
+    color: beige;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro img {
+        margin: 0 auto;
+    }
 }
